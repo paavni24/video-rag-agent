@@ -14,6 +14,12 @@ The application runs as three Docker Compose services:
 
 Uploaded media is shared between the API and MCP containers. Pixeltable databases are stored in Docker volumes.
 
+### Architecture
+
+The diagram below shows how uploads and questions move through the UI, agent API, and video MCP server, along with the shared media, indexes, and external services.
+
+![Kubrick video question-answering architecture](static/video-rag-architecture.svg)
+
 ## Requirements
 
 - Docker Desktop or Docker Engine with the Compose plugin
