@@ -25,11 +25,11 @@ API usage may incur charges with OpenAI and Groq.
 
 ## Run locally
 
-Clone your GitHub copy (replace the placeholders with your GitHub account and repository):
+Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY.git
-cd YOUR_REPOSITORY
+git clone https://github.com/paavni24/video-rag-agent.git
+cd video-rag-agent
 ```
 
 Create the environment files:
